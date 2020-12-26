@@ -1,37 +1,40 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <style>
+       <style>
         body {
-            font-family: "Crimson Text", Garamond, "Times New Roman", serif;
-            background-color: rgb(250, 243, 221);
-            font-size: 35px;
-            color: rgb(94, 100, 114);
+            font-family: Georgia, Times, "Times New Roman", serif;
+            color: rgb(0, 16, 17);
+            font-size: 15px;
         }
         a:link {
-            color: rgb(94, 100, 114);
+            color: rgb(114, 128, 138);
         }
         a:visited {
-            color: rgb(174, 217, 224);
+            color: rgb(0, 16, 17);
         }
         a:hover {
-            background-color: rgb(250, 243, 221);
+            background-color: rgb(191, 215, 181);
         }
         #titlediv {
-            border-bottom: 1px solid rgb(94, 100, 114);
-            background-color: rgb(255, 166, 158);
-            background-image: url(https://live.staticflickr.com/65535/50064617341_a280817b91_w.jpg);
-            margin-right: -20px;
-            margin-left: -20px;
-            padding-top: 10px;
-            padding-bottom: 10px;
-            font-size:39px;
+            background-color: rgb(241, 250, 238);
+            font-size: 25px;
+            margin: -8px;
+            padding-top: 7px;
+            padding-bottom: 7px;
         }
-        #megadiv {
-            position: absolute;
-            padding-left: 7px;
-            padding-right: 7px;
-            margin-top: -29px;
+        #links {
+            font-size: 20px;
+            background-color: rgb(163, 196, 188);
+            margin: -8px;
+            text-align: center;
+            padding: 5px;
+            clear: both;
+        }
+        .sotto {
+            background-color: rgb(241, 250, 238);
+            padding: 10px;
+            margin: -8px;
         }
         #title {
             text-align: center;
@@ -40,26 +43,15 @@
             margin-top: -15px;
         }
         #psmall {
-            font-size: 20px;
-        }
-        #div2 {
-            width: 28%;
-            float: right;
-            border: 1px solid rgb(94, 100, 114);
-            background-color: rgb(255, 166, 158);
-            padding-left: 7px;
-            padding-right: 7px;
-            background-image: url(https://live.staticflickr.com/65535/50064617341_a280817b91_w.jpg);
-            font-size: 30px;
+            font-size: 25px;
         }
         #piccolo {
-            border-top: 1px solid rgb(94, 100, 114);
-            background-color: rgb(255, 166, 158);
-            margin-right: -20px;
-            margin-left: -20px;
+            font-size: 10px;
+            background-color: rgb(163, 196, 188);
+            margin: -8px;
             text-align: right;
-            padding-bottom: 20px;
-            background-image: url(https://live.staticflickr.com/65535/50064617341_a280817b91_w.jpg);
+            padding: 5px;
+            clear: both;
         }
        #img {
             float: left;
@@ -67,45 +59,41 @@
        #img2 {
             float: right;
        }
+       .column {
+           background-color: rgb(255, 255, 255);
+           float: left;
+       }
        .rubrica {
-            border: 3px solid rgb(94, 100, 114);
+            border: 1px solid rgb(0, 16, 17);
+            margin-bottom: 20px;
             height: 270px;
             overflow: auto;
-            background-color: rgb(174, 217, 224);
-            margin-bottom: 20px;
+            background-color: rgb(191, 215, 181);
         }
         h4 {
-            background-color: rgb(184, 242, 230);
+            background-color: rgb(163, 196, 188);
             text-align: center;
-            border: 1px solid rgb(94, 100, 114);
+            border: 1px solid rgb(0, 16, 17);
             margin: 5px;
             position: relative;
-            width: 99%;
+            width: 98%;
         }
+      #home {
+           position: fixed;
+           right: 20px;
+           bottom: 20px;
+       }
         </style>
         <meta charset="utf-8">
         <title>Just a Bookworm!</title>
         
     </head>
     <body>
-   <div id="megadiv">
         <div id="titlediv"><h1 id="title">Just a Bookworm</h1></div>
-        <p>In this column I'd like to post (when I have an idea for a topic) something about that topic. To be honest I don't know when I will have ideas, so I don't know when I will update this webpage.<br>
-Of course you can suggest me some topics on <a href="https://tellonym.me/ranalettrice">tellonym</a>, everything you'd like to read my opinion on, "serious" or "not serious" things.</p>
+        <div class="sotto div"><p style="margin-right: 20px; margin-left: 20px;">In this column I'd like to post (when I have an idea for a topic) something about that topic. To be honest I don't know when I will have ideas, so I don't know when I will update this webpage.<br>
+Of course you can suggest me some topics on <a href="https://tellonym.me/ranalettrice">tellonym</a>, everything you'd like to read my opinion on, "serious" or "not serious" things.</p></div>
         
-         <div id="div2">
-         <h3>Contents:</h3>
-        <ul id="vicino">
-            <li><a href="https://just-a-booklover.github.io/just-a-bookworm.github.io-english/">HOME</a></li> 
-            <li><a href="https://just-a-booklover.github.io/just-a-bookworm.github.io-elinks/">other links</a></li>
-            <li><a href="https://just-a-booklover.github.io/just-a-bookworm.github.io-books/">recommended books</a></li>
-            <li><a href="https://just-a-booklover.github.io/just-a-bookworm.github.io-movies/">recommended movies and TV shows</a></li>
-        </ul>
-             <p id="vicino">go back to the <a href="https://just-a-booklover.github.io/just-a-bookworm.github.io">Italian version</a> ;) .</p>
-        </div>
-       
-
-<div class="rubrica" style=" font-size: 18px; width: 68%;">
+<div class="sotto div"><div class="rubrica">
             <h4>31st August 2020. <a style=" font-size: 0.75em;" href="https://just-a-booklover.github.io/just-a-bookworm.github.io-columns-august2020/">see more</a></h4>
            <p style=" margin-top: -5px; padding: 3px;">I was waiting for this album since... I don't even remember when it was told the release date, but I couldn't wait for it! 
 <br><em>Never really over</em> — I loved this song from the first time I heard it (who didn't?), and when it was released I spent do much time searching on the Internet if Katy Perry announced a new album. Now, more than a year after, there we are :") .
@@ -132,7 +120,7 @@ To be honest, the whole album is so good and I can't decide which songs I prefer
 Even because I think this may be my favourite album by Katy Perry, I need to listen to it again.</p>
 </div>
 
-       <div class="rubrica" style=" font-size: 18px; width: 68%;">
+       <div class="rubrica">
             <h4>28th July 2020. <a style="font-size: 0.75em;" href="https://just-a-booklover.github.io/just-a-bookworm.github.io-columns-july2020/">see more</a></h4>
            <p style=" margin-top: -5px; padding: 3px;">The 24th of July I was checking my Instagram profile from the browser (I deleted the app months ago), I don’t even know why I was on Instagram, I hardly ever check it, but I accidentally ended up in the Taylor Swift’s profile and... I couldn’t breathe, it was too good to be true, I couldn’t resist, I <strong>had to</strong> listen to her new album! Somehow I managed to wait until I could write down my reactions, and here they are ;) .<br>
 <em>the 1</em> – I still haven’t figured out whether I liked that song or I didn’t, but I think that if I listen to it again I will like it. It’s so soft and it’s like a lullaby (and I love this kind of songs), but it’s gloomy and so different from the other Taylor Swift’s songs...<br>
@@ -172,18 +160,20 @@ I posted this review a few days ago, but now I don't think it's worse than the l
            </p>
        </div>
        
-       <div class="rubrica" style=" font-size: 30px; width: 98%; clear: both;">
+       <div class="rubrica">
             <h4>2nd July 2020. <a style=" font-size: 0.75em;" href="https://just-a-booklover.github.io/just-a-bookworm.github.io-columns-june20202/">see more</a></h4>
            <p style=" margin-top: -5px; padding: 3px;">Saturday, the 27th June, was the Global Pride Day and, if it weren't for the pandemic, I would have joined the Milan pride parade. hen the parade was cancelled I felt a little bad, but what could they do?
         I've never been to a pride on purpose (last year I was on a studying holiday in Dublin and when we went in Belfast for a trip we saw the pride - even if nobody knew there would have been it). By the way, I didn't really join the parade, I just saw it, but there I decided I would have joined the Milan pride in 2020.
       I was excited to see the Virtual Global Pride, but I didn't like it: I saw just about an hour of the pride, but it seemed to be badly organized to me, too divided. Every person who made a speech spoke for about a minute and then appeared another person who told other different things. And the songs: they were put almost casually in the video... I don't know, in the official website it was described and i expected something way better. Now I hope I'll be at the Milan pride next year :) .</p>
        </div>
         
-       <div class="rubrica" style=" font-size: 30px; width: 98%; clear: both;">
+       <div class="rubrica">
             <h4>15th June 2020. <a style=" font-size: 0.75em;" href="https://just-a-booklover.github.io/just-a-bookworm.github.io-columns-june2020/">see more</a></h4>
             <p style=" margin-top: -5px; padding: 3px;">I know it could be commonplace, but I would like to talk about the <strong>Marvel Cinematic Universe</strong> and about my experience¿ with these movies. I started to watch them about a year ago and unwillingly: I don't like this kind of movies at all and I was annoyed because 2 of my friends were always trying to make me watch the Avengers series. But I can't say no, so I have been forced to watch them. <strong>ONE OF THE BEST CHOICES I'VE EVER HAD!!!</strong> I know I'm dramatic, but it's true. I loved the movies (I mean- all but "Black Panther") and I also rewatched all of them.  I swear, I wouldn't have watched all the movies another time if it weren't for my brother. I mean- they're like 53? hours. Suicide. My brother decided to get into MCU when I watched "Avengers: Endgame". First, he saw it, then he started with "Iron Man". That's weird. Luckily, we finished the Avengers series quite quickly because of the quarantine. Despite everything, I've never watched a Marvel movie at the cinema -_- . I was really excited for the Black Widow's movie but eventually was delayed. I know they couldn't do otherwise, but I felt sad. Like a good reader, I would like to read the comics which inspired the productors. In February, I have been at a comicon and I wanted to buy a comic, but I couldn't decide which comic to buy and... I bought nothing. Next February I won't lose the chance. I also want to watch the X-Men series, but I would watch it with my brother, and he doesn't want to. By the way I'm still trying to convince him...</p>
         </div>
        
        </div>
+        
+        <div id="home"><a href="https://just-a-booklover.github.io/just-a-bookworm.github.io/"><img src="https://live.staticflickr.com/65535/50628268432_1f3120e8be.jpg" width="120px"></a></div>
     </body>
 </html>
